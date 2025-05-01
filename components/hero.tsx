@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { motion } from "framer-motion"
+import {motion} from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { ArrowDown } from "lucide-react"
 
@@ -51,7 +51,7 @@ export function Hero() {
             transition={{ delay: 0.4 }}
             className="text-5xl md:text-7xl font-bold mb-6 text-white"
           >
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0ff] to-[#f0f]">John Doe</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0ff] to-[#f0f]">Inderjeet</span>
           </motion.h1>
           <motion.h2
             initial={{ opacity: 0 }}
@@ -68,8 +68,7 @@ export function Hero() {
             transition={{ delay: 0.8 }}
             className="text-lg text-gray-400 mb-10 max-w-2xl mx-auto"
           >
-            I'm a full-stack developer specializing in building exceptional digital experiences. Currently, I'm focused
-            on building accessible, human-centered products.
+            I'm a full-stack developer passionate about crafting intuitive, high-performance digital solutions with a focus on accessibility and user-first design
           </motion.p>
           <motion.div
             initial={{ opacity: 0 }}

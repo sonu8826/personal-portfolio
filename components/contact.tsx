@@ -96,7 +96,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium">Location</h4>
-                    <p className="text-gray-400">San Francisco, California</p>
+                    <p className="text-gray-400">Gurugram, Haryana</p>
                   </div>
                 </div>
 
