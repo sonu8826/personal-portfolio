@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
+import myImg from "../assets/My-Img-ezgif.com-resize.webp"
 
 export function About() {
   return (
@@ -61,8 +62,8 @@ export function About() {
                 <div className="absolute inset-0 bg-gradient-to-r from-[#0ff]/20 to-[#f0f]/20 rounded-md opacity-50 group-hover:opacity-70 transition-opacity duration-300"></div>
                 <div className="relative w-full h-full overflow-hidden rounded-md">
                   <Image
-                    src="/placeholder.svg?height=256&width=256"
-                    alt="John Doe"
+                    src={myImg}
+                    alt="inderjeet"
                     width={256}
                     height={256}
                     className="object-cover grayscale group-hover:grayscale-0 transition-all duration-300"

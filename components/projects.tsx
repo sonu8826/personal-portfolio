@@ -5,6 +5,10 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 import { ExternalLink, Github, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import ecommImg from "../assets/e-comm-ezgif.com-resize.webp"
+import whereintheworldImg from "../assets/whereintheworld.webp"
+import digitalSolutionImg from "../assets/digitalSolution.webp"
+import dholeraImg from "../assets/dholrea.webp"
 
 export function Projects() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
@@ -13,37 +17,37 @@ export function Projects() {
     {
       title: "E-Commerce Platform",
       description:
-        "A full-featured e-commerce platform with product management, cart functionality, payment processing, and order tracking.",
-      image: "/placeholder.svg?height=400&width=600",
-      tags: ["React", "Node.js", "MongoDB", "Stripe", "Redux"],
+        "Developing a responsive and visually appealing e-commerce website using CSS3, Bootstrap 5, JavaScript, Node.js, and MongoDB.",
+      image: ecommImg,
+      tags: ["HTML", "CSS", "MongoDB", "Javascript", "Node JS"],
       liveLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/sonu8826/Web-Portfolio/tree/main/ShopifyApp",
     },
     {
-      title: "Social Media Dashboard",
+      title: "Where in the World",
       description:
-        "A comprehensive dashboard for social media management with analytics, scheduling, and content management.",
-      image: "/placeholder.svg?height=400&width=600",
-      tags: ["Next.js", "TypeScript", "Tailwind CSS", "Chart.js", "Firebase"],
-      liveLink: "#",
-      githubLink: "#",
+        " Developed a website using ReactJs where you can get the Information about all the countries in the world",
+      image: whereintheworldImg,
+      tags: ["React JS", "TypeScript", "Tailwind CSS", "Netlify", "Github"],
+      liveLink: "https://whereintheworld121.netlify.app/",
+      githubLink: "https://github.com/sonu8826/WhereIntheWorld",
     },
     {
-      title: "Task Management App",
+      title: "Digital Solution",
       description:
-        "A collaborative task management application with real-time updates, team assignments, and progress tracking.",
-      image: "/placeholder.svg?height=400&width=600",
-      tags: ["Vue.js", "Express", "PostgreSQL", "Socket.io", "JWT"],
-      liveLink: "#",
-      githubLink: "#",
+        "Developed a Next.js-based web application for digital business growth",
+      image: digitalSolutionImg,
+      tags: ["Next JS", "React.js", "Tailwind CSS", "Sanity CMS"],
+      liveLink: "https://digitalsolution.vercel.app/",
+      githubLink: "https://github.com/prathamdubey/digitalsolution",
     },
     {
-      title: "Weather Forecast App",
+      title: "Dholera Times",
       description:
-        "A weather application that provides current conditions and forecasts with interactive maps and location-based services.",
-      image: "/placeholder.svg?height=400&width=600",
-      tags: ["React", "OpenWeather API", "Mapbox", "Styled Components"],
-      liveLink: "#",
+        "Dholera Times is a modern Next.js real estate website showcasing smart city properties with fast performance, responsiveness, and SEO optimization.",
+      image: dholeraImg,
+      tags: ["React.js", "Next Js", "Sanity CMS", "Tailwind CSS", "whatsapp API"],
+      liveLink: "https://www.dholeratimes.com/",
       githubLink: "#",
     },
   ]

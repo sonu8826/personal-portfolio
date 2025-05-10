@@ -39,7 +39,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link href="#home" className="text-2xl font-bold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0ff] to-[#f0f]">DevPortfolio</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0ff] to-[#f0f]">Inderjeet's Portfolio</span>
           </Link>
 
           {/* Desktop Navigation */}

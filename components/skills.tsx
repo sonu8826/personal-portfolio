@@ -23,12 +23,12 @@ export function Skills() {
     {
       category: "Backend",
       icon: <Server className="w-10 h-10 text-[#f0f]" />,
-      items: ["Node.js", "Express", "Python", "Django", "PHP", "Laravel", "GraphQL", "REST API"],
+      items: ["Node.js", "Express", "PHP", "Laravel", "GraphQL", "REST API"],
     },
     {
       category: "Database",
       icon: <Database className="w-10 h-10 text-[#0ff]" />,
-      items: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Redis", "Prisma", "Supabase"],
+      items: ["MongoDB", "PostgreSQL", "MySQL", "Firebase",],
     },
     {
       category: "Mobile",
@@ -38,12 +38,12 @@ export function Skills() {
     {
       category: "DevOps",
       icon: <GitBranch className="w-10 h-10 text-[#0ff]" />,
-      items: ["Git", "GitHub", "CI/CD", "Docker", "AWS", "Vercel", "Netlify"],
+      items: ["Git", "GitHub", "CI/CD", "Vercel", "Netlify"],
     },
     {
       category: "Tools",
       icon: <Terminal className="w-10 h-10 text-[#f0f]" />,
-      items: ["VS Code", "Figma", "Adobe XD", "Postman", "Jest", "Cypress"],
+      items: ["VS Code", "Figma", "Adobe XD", "Postman", "Jest"],
     },
   ]
 
