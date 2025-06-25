@@ -9,53 +9,18 @@ export function Experience() {
 
   const experiences = [
     {
-      company: "Tech Innovations Inc.",
-      position: "Senior Frontend Developer",
-      period: "January 2021 - Present",
-      location: "San Francisco, CA",
+      company: "Truliyo Digital.",
+      position: "Web developer executive",
+      period: "September 2024 - Present",
+      location: "Gurugram, Haryana",
       description: [
-        "Led the development of the company's flagship product using React and TypeScript",
+        "worked on the development of the company's flagship product using React and TypeScript",
         "Implemented state management with Redux and optimized performance",
         "Collaborated with designers to create responsive and accessible UI components",
-        "Mentored junior developers and conducted code reviews",
+        "Mentored the overall development and conducted code reviews",
       ],
     },
-    {
-      company: "Digital Solutions LLC",
-      position: "Full Stack Developer",
-      period: "March 2018 - December 2020",
-      location: "New York, NY",
-      description: [
-        "Developed and maintained multiple client websites using React, Node.js, and MongoDB",
-        "Created RESTful APIs and implemented authentication systems",
-        "Optimized database queries and improved application performance",
-        "Participated in agile development processes and sprint planning",
-      ],
-    },
-    {
-      company: "WebCraft Studios",
-      position: "Frontend Developer",
-      period: "June 2016 - February 2018",
-      location: "Boston, MA",
-      description: [
-        "Built responsive web applications using HTML, CSS, and JavaScript",
-        "Worked with Vue.js to create interactive user interfaces",
-        "Collaborated with backend developers to integrate frontend with APIs",
-        "Participated in user testing and implemented feedback",
-      ],
-    },
-    {
-      company: "StartUp Ventures",
-      position: "Junior Web Developer",
-      period: "January 2015 - May 2016",
-      location: "Austin, TX",
-      description: [
-        "Assisted in the development of web applications using jQuery and Bootstrap",
-        "Implemented responsive designs and ensured cross-browser compatibility",
-        "Fixed bugs and improved existing features",
-        "Participated in code reviews and team meetings",
-      ],
-    },
+    
   ]
 
   return (

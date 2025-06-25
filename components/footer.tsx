@@ -20,14 +20,14 @@ export function Footer() {
         >
           <div className="text-center mb-6">
             <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0ff] to-[#f0f]">
-              John Doe
+              Inderjeet
             </h3>
-            <p className="text-gray-400 mt-1">Full Stack Developer</p>
+            <p className="text-gray-400 mt-1">Web Developer</p>
           </div>
 
           <div className="flex space-x-6 mb-6">
             {["GitHub", "LinkedIn", "Twitter", "Instagram", "Dribbble"].map((social) => (
-              <a key={social} href="#" className="text-gray-400 hover:text-[#0ff] transition-colors duration-300">
+              <a key={social} href="https://linktr.ee/inderjeet121" className="text-gray-400 hover:text-[#0ff] transition-colors duration-300">
                 {social}
               </a>
             ))}
