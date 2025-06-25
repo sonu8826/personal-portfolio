@@ -35,7 +35,7 @@ export function Footer() {
 
           <div className="text-gray-500 text-sm flex items-center">
             
-            <p>© {new Date().getFullYear()} John Doe. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Inderjeet. All rights reserved.</p>
             <span className="mx-2">|</span>
             <p className="flex items-center">
               Made with <Heart className="w-4 h-4 mx-1 text-[#f0f]" /> using Next.js & Tailwind CSS
